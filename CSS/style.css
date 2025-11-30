@@ -1,0 +1,110 @@
+.my-container{
+    width: 90%;
+    margin: auto;
+}
+
+.fa-1-5X {
+    font-size: 1.5rem
+}
+
+.color-orange {
+    background-color: var(--bs-orange)
+}
+
+.text-orange {
+    color: var(--bs-orange)
+}
+.my-color{
+    background-color: #FFF9EC;
+}
+
+/**************navbar ****************************/
+.app-navbar {
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-tagline {
+    font-size: 0.9rem;
+    color: #777777;
+}
+
+.nav-link-icon {
+    color: #777777;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+
+}
+
+.nav-link-icon:hover {
+    color: var(--bs-orange)
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFC107;
+}
+
+/************ navbar *****************/
+
+.font-semibold {
+
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.nnn {
+    width: 90%;
+    bottom: 20px;
+    margin-left: 5%;
+}
+.my-span1{
+background-color: #DBFCE7;
+}
+.my-span2{
+    background-color: #DBEAFE ;
+}
+.my-icon-span {
+    background-color: oklch(95.4% .038 75.164);;
+}
+.my-icon-span:hover {
+    background-color: oklch(90.1% .076 70.697);;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55 */
+
+
+.bg-calories { background-color: #FFEDD4; color: #ff5733; }
+.bg-protein { background-color: #3371ff2e; color: #3371ff; }
+.bg-carbs { background-color: #ffc3002e; color: #ffc300; }
+.bg-fat { background-color: #e54c7d2e; color: #e54c7d; }
+.bg-fiber { background-color: #33ff572e; color: #33ff57; }
+.bg-sodium { background-color: #bb33ff2e; color: #bb33ff; }
+
+.my-box-shadow{
+    box-shadow: -5px 0 0 0 gold
+}
+.button-styl{
+    border: none;
+    color: #777777
+}
+.button-styl:hover{
+    border: none;
+    color: #000
+}
+.style-btn{
+    background-color: var(--bs-orange);
+    border: none;
+    padding: 11px 25px;
+    transition: transform 0.5s;
+}
+.style-btn:hover{
+    background-color: #E80007;
+    transform: scale(1.08);
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+}
